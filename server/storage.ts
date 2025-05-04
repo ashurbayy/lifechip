@@ -1,4 +1,4 @@
-import { User, InsertUser, MedicalProfile, InsertMedicalProfile, ContactMessage, InsertContactMessage, EmergencyContact } from "@shared/schema";
+import { User, InsertUser, MedicalProfile, InsertMedicalProfile, ContactMessage, InsertContactMessage, EmergencyContact } from "../shared/schema";
 
 export interface IStorage {
   // User methods

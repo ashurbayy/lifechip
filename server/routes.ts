@@ -6,7 +6,7 @@ import {
   insertMedicalProfileSchema, 
   insertContactMessageSchema, 
   loginSchema 
-} from "@shared/schema";
+} from "../shared/schema";
 import session from "express-session";
 import MemoryStore from "memorystore";
 import passport from "passport";
